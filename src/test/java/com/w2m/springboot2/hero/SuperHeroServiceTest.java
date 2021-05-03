@@ -25,7 +25,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = {SuperHeroRepository.class, SuperHeroService.class})
+@SpringBootTest(classes = Application.class,
+        webEnvironment = SpringBootTest.WebEnvironment.MOCK)
 public class SuperHeroServiceTest {
 
     @Autowired
