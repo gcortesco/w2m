@@ -16,7 +16,6 @@ public class SuperHero {
     private String name;
 
     public SuperHero() {
-
     }
 
     public SuperHero(String name) {
