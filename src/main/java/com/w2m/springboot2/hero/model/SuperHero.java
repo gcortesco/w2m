@@ -22,6 +22,7 @@ public class SuperHero {
         this.name = name;
     }
 
+
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public long getId() {
